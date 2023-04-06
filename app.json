@@ -1,0 +1,22 @@
+{
+  "name": "Crunchyroll Dl",
+  "description": "A sample live stream radio app",
+  "repository": "https://github.com/tonmoyislam12/youtube-live-24",
+  "stack": "container",
+  "env": {
+    "USER": {
+      "description": "KEY FOR STREAMING",
+      "required": false
+    },
+    "PASS": {
+      "description": "folder name of the link",
+      "required": false
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
