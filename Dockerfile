@@ -3,4 +3,4 @@ WORKDIR /bot/
 RUN chmod 777 /bot/
 RUN apk update && apk add git
 COPY start.sh .
-CMD ["bash","start.sh"]
+CMD ["ash","start.sh"]
